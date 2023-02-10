@@ -41,11 +41,11 @@ getSimulatedTwoArmMeans <- function(
     # TODO create normal distributed random data for the two groups
 
     # TODO save the fake data to a data frame in long format
-    tbl_res <- data.frame()
+    tblRes <- data.frame()
 
     # define that the result list is a class with name 'SimulationResult'
     result <- structure(list(
-      data = tbl_res,
+      data = tblRes,
       n1 = n1,
       n2 = n2,
       mean1 = mean1,
